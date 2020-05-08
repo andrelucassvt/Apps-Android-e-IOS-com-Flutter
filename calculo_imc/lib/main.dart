@@ -55,6 +55,7 @@ class _HomeState extends State<Home> {
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Form(
+          key: validacao,
           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch,children: <Widget>[
           
           Icon(Icons.assignment_ind,size: 120, color: Colors.green,),
